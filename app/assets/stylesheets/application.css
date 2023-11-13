@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 50px;
+  background-color: rgb(118, 118, 239);
+  color: white;
+  margin: 10px;
+  padding: 30px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
