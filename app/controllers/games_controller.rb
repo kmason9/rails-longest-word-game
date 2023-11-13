@@ -5,7 +5,9 @@ class GamesController < ApplicationController
 
   def new
     @letters = []
-    @letters << ('a'..'z').to_a.sample until @letters.count == 10
+    10.times do
+      @letters << ('a'..'z').to_a.sample
+    end
   end
 
   def score
